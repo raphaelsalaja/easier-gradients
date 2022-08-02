@@ -1,0 +1,24 @@
+{
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "id": "easier-gradients",
+  "name": "Easier Gradients",
+  "main": "build/main.js",
+  "ui": "build/ui.js",
+  "menu": [
+    {
+      "name": "Easier Gradients",
+      "command": "src/easier-gradients/main.ts--default"
+    },
+    {
+      "name": "License",
+      "command": "src/license/main.ts--default"
+    },
+    {
+      "name": "Reset",
+      "command": "src/reset/main.ts--default"
+    }
+  ]
+}

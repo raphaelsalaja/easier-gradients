@@ -1,0 +1,33 @@
+.body {
+	overflow: hidden;
+}
+
+.buyLicenseKey {
+	text-align: center;
+}
+
+.buyLicenseKey a {
+	display: block;
+	padding: var(--space-small) var(--space-medium) var(--space-large);
+	color: var(--color-blue);
+	pointer-events: all;
+	text-decoration: none;
+}
+.buyLicenseKey a:hover {
+	text-decoration: underline;
+}
+.buyLicenseKey a:focus {
+	outline: 0;
+}
+
+.buyLicenseKey a span {
+	pointer-events: none;
+}
+.buyLicenseKey a:focus-visible span {
+	background-color: var(--color-blue-30-translucent);
+}
+
+.largeCheckIcon {
+	width: 32px;
+	margin: 0 auto;
+}
